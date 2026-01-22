@@ -326,7 +326,7 @@ Tools and libraries for building AI agents.
 
 ### Other Tools
 
-- **[DSPy](https://dspy-docs.vercel.app/)** - Framework for optimizing prompts and LM pipelines
+- **[DSPy](https://github.com/stanfordnlp/dspy)** ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=social) - Framework for optimizing prompts and LM pipelines
 - **[Fabric](https://github.com/danielmiessler/fabric)** ![GitHub stars](https://img.shields.io/github/stars/danielmiessler/fabric?style=social) - Framework for augmenting humans using AI
 - **[Tavily](https://tavily.com/)** - Search engine tailored for AI agents
 - **[Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/)** - AWS managed agent service
