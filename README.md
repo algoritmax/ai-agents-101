@@ -113,6 +113,66 @@ Predefined orchestration patterns that are simpler than full agents:
 
 ---
 
+## 🔍 Agentic Search
+
+How agents transform traditional search into iterative, reasoning-driven information retrieval.
+
+### What is Agentic Search?
+
+Unlike traditional linear RAG pipelines, agentic search uses a formal protocol to reason about results, decide if they are sufficient, and iterate using tools if needed. The agent queries, evaluates, refines, and repeats until it finds satisfactory answers.
+
+> [!TIP]
+> Hand-roll an agentic loop before using heavy frameworks. This helps you understand the underlying protocol of tool calling and the iterative logic of LLM SDKs.
+
+### Levels of AI Search Adoption
+
+John Berryman defines five levels of AI integration in search systems:
+
+- **Level 0** - Traditional keyword search with no AI intervention
+- **Level 1** - Small suggestion bar additions like "Did you mean?" after results load
+- **Level 2** - System explicitly displays how it interpreted user intent to refine results automatically
+- **Level 3** - Conversational assistant using a for-loop and tool calling to interact with users
+- **Level 4** - Asynchronous research traversing thousands of results and alternate queries to provide summaries
+
+### Thin vs Thick API
+
+Two architectural approaches to building search systems:
+
+- **Thick API** - All intelligence (query understanding, ranking, intent classification) is built into the backend service
+- **Thin API** - Simple search backend with intelligence moved into the agent's iterative reasoning loop
+
+Agents make "dumb" search backends seem intelligent by optimizing queries and handling reasoning that was traditionally managed by thick API layers.
+
+### Cognitive Core
+
+Andrej Karpathy's concept of a small model that sacrifices encyclopedic knowledge to maximize reasoning and tool-calling capabilities. Rather than relying on parametric knowledge, the model excels at using external tools to find information.
+
+### Roaming RAG
+
+An agent navigating a data structure (like a file system) using breadcrumbs and directory listings to find information. Instead of retrieving from a flat index, the agent explores hierarchically, making decisions at each level about where to look next.
+
+### Search Intent Types
+
+Understanding user intent is critical for effective search:
+
+- **Navigational** - User looking for a specific item, file, or person by exact name
+- **Informational** - Acquiring facts or learning about a topic
+- **Transactional** - Clear intent to purchase a specific item
+- **Comparison** - User knows what they want generally but needs help evaluating options
+
+### Query Understanding
+
+LLMs assist search by parsing query strings to identify specific attributes. For example, recognizing "blue" as a color in "blue shoes" enables structured filtering rather than just keyword matching.
+
+### Lexical vs Semantic Search
+
+- **Lexical search** - Best for exact matches: product IDs, specific names, precise technical terms
+- **Semantic search** - Finds results based on meaning and concepts even when exact keywords are missing
+
+Most effective systems combine both approaches.
+
+---
+
 ## 🧠 Advanced Concepts
 
 ### Spec-Driven Development
@@ -141,12 +201,21 @@ An agent's emerging ability to figure out how to use tools it has not been expli
 ### Population of Prompts
 Testing multiple prompt variations and evolving them based on trajectory scores. DSPy implements this approach for systematic prompt optimization.
 
+### Agent-as-a-Judge
+Using a highly capable LLM to grade the relevance or quality of another system's outputs. This enables automated evaluation at scale without human labeling, though it introduces its own biases and failure modes.
+
+### The Intern Metaphor
+John Berryman suggests treating LLMs as "super-intelligent, eager, but forgetful AI interns." This mental model helps developers anticipate failure modes: the model needs clear instructions, cannot guess hidden context, and may get distracted without proper guidance. Even the best models are not psychic.
+
 ---
 
 ## ⚠️ Challenges & Pain Points
 
 ### Compound Mistakes
 An agent often needs multiple steps to accomplish a task, and overall accuracy decreases as steps increase. If model accuracy is 95% per step, over 10 steps accuracy drops to 60%, and over 100 steps it's only 0.6%.
+
+### Context Rot
+Also called "stale context," this occurs when too much information is stuffed into an LLM's context window. The model gets confused, loses focus, and wastes tokens parsing irrelevant information. The risk of stuffing too many search results or conversation history degrades performance rather than improving it.
 
 ### Agent Memory Difficulty
 The dual challenge of what to write (save) and what to fetch (retrieve). Getting this wrong leads to either bloated context or missing critical information.
@@ -299,9 +368,13 @@ Links to deeper dives and implementations.
 ### Videos / Podcasts
 
 - [Context Engineering Episode 3](https://youtu.be/MJScoDgIcXg?si=q5BVpayk_DYAktdP) - Lance Martin / LangChain / Chroma
+- [Agentic Search Live](https://www.youtube.com/live/H6ua9HjGq60) - John Berryman and Doug Turnbull on levels of AI search adoption, thin vs thick APIs, and roaming RAG
 
 ### People to Follow
 
+- **John Berryman** - Search and agentic systems expert
+- **Doug Turnbull** - Search relevance engineer, author of "Relevant Search"
+- **Harrison Chase** - Co-founder and CEO of LangChain
 - **Lance Martin** - LangChain
 - **Chip Huyen** - Author of "Designing Machine Learning Systems"
 - **Simon Willison** - Creator of Datasette, prolific AI blogger
