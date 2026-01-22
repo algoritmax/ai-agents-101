@@ -6,6 +6,19 @@
 
 A curated list of awesome AI agent frameworks, concepts, and resources.
 
+## Table of Contents
+
+- [🧩 Fundamentals](#-fundamentals)
+- [🛠️ Core Components](#️-core-components)
+- [🏗️ Agent Architectures](#️-agent-architectures)
+- [🔍 Agentic Search](#-agentic-search)
+- [🧠 Advanced Concepts](#-advanced-concepts)
+- [⚠️ Challenges & Pain Points](#️-challenges--pain-points)
+- [💼 Use Cases](#-use-cases)
+- [🔧 Popular Frameworks](#-popular-frameworks)
+- [📖 Related Repositories](#-related-repositories)
+- [📚 Resources](#-resources)
+
 ## 🧩 Fundamentals
 
 Core concepts you need to understand before diving into AI agents.
