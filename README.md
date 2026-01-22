@@ -300,6 +300,9 @@ Tools and libraries for building AI agents.
 ### Coding & Development
 
 - **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** - Anthropic's CLI agent for software development
+- **[OpenAI Codex](https://github.com/openai/codex)** - OpenAI's lightweight CLI coding agent
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** - Google's AI agent for the command line
+- **[OpenCode](https://github.com/sst/opencode)** - Open-source CLI coding agent with TUI, supports 75+ LLM providers including local models
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Agents that can modify code, run commands, browse web, and call APIs
 - **[Cursor](https://cursor.sh/)** - AI code editor utilizing semantic search
 - **[Windsurf](https://codeium.com/windsurf)** - AI-powered IDE by Codeium
