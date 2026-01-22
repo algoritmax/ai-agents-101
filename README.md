@@ -289,48 +289,48 @@ Tools and libraries for building AI agents.
 
 ### General Purpose
 
-- **[LangGraph](https://github.com/langchain-ai/langgraph)** ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square) - Library for building stateful, multi-actor applications with LLMs
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social) - Library for building stateful, multi-actor applications with LLMs
 - **[CrewAI](https://www.crewai.com/)** - Popular framework for orchestrating role-playing AI agents
-- **[AutoGen](https://github.com/microsoft/autogen)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square) - Microsoft's framework for multi-agent conversations
+- **[AutoGen](https://github.com/microsoft/autogen)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=social) - Microsoft's framework for multi-agent conversations
 - **[OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)** - Official OpenAI multi-agent framework (evolved from Swarm)
 - **[PydanticAI](https://ai.pydantic.dev/)** - Agent framework built on Pydantic
-- **[smolagents](https://github.com/huggingface/smolagents)** ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square) - HuggingFace's barebones library for agents that think in Python code
-- **[LlamaIndex](https://github.com/run-llama/llama_index)** ![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square) - Framework for building LLM-powered agents over your data
+- **[smolagents](https://github.com/huggingface/smolagents)** ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=social) - HuggingFace's barebones library for agents that think in Python code
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** ![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social) - Framework for building LLM-powered agents over your data
 
 ### Coding & Development
 
 - **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** - Anthropic's CLI agent for software development
-- **[OpenAI Codex](https://github.com/openai/codex)** ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square) - OpenAI's lightweight CLI coding agent
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square) - Google's AI agent for the command line
-- **[OpenCode](https://github.com/sst/opencode)** ![GitHub stars](https://img.shields.io/github/stars/sst/opencode?style=flat-square) - Open-source CLI coding agent with TUI, supports 75+ LLM providers including local models
-- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** ![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square) - Agents that can modify code, run commands, browse web, and call APIs
+- **[OpenAI Codex](https://github.com/openai/codex)** ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=social) - OpenAI's lightweight CLI coding agent
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=social) - Google's AI agent for the command line
+- **[OpenCode](https://github.com/sst/opencode)** ![GitHub stars](https://img.shields.io/github/stars/sst/opencode?style=social) - Open-source CLI coding agent with TUI, supports 75+ LLM providers including local models
+- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** ![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social) - Agents that can modify code, run commands, browse web, and call APIs
 - **[Cursor](https://cursor.sh/)** - AI code editor utilizing semantic search
 - **[Windsurf](https://codeium.com/windsurf)** - AI-powered IDE by Codeium
 - **[Devin](https://devin.ai/)** - Collaborative AI teammate for software development
 
 ### Research & Reports
 
-- **[GPT Researcher](https://github.com/assafelovic/gpt-researcher)** ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat-square) - Autonomous agent for comprehensive web and local research
-- **[Stanford STORM](https://github.com/stanford-oval/storm)** ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=flat-square) - LLM-powered system that researches topics and generates full-length reports with citations
+- **[GPT Researcher](https://github.com/assafelovic/gpt-researcher)** ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social) - Autonomous agent for comprehensive web and local research
+- **[Stanford STORM](https://github.com/stanford-oval/storm)** ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social) - LLM-powered system that researches topics and generates full-length reports with citations
 
 ### Browser Automation
 
-- **[Stagehand](https://github.com/browserbase/stagehand)** ![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=flat-square) - AI browser automation
-- **[LaVague](https://github.com/lavague-ai/LaVague)** ![GitHub stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=flat-square) - Large Action Model framework for AI web agents
+- **[Stagehand](https://github.com/browserbase/stagehand)** ![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social) - AI browser automation
+- **[LaVague](https://github.com/lavague-ai/LaVague)** ![GitHub stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=social) - Large Action Model framework for AI web agents
 
 ### Data & RAG
 
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** ![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square) - Open-source RAG engine with deep document understanding
-- **[ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** ![GitHub stars](https://img.shields.io/github/stars/ScrapeGraphAI/Scrapegraph-ai?style=flat-square) - LLM-powered web scraping
-- **[Firecrawl](https://github.com/mendableai/firecrawl)** ![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square) - Turn websites into LLM-ready markdown
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** ![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social) - Open-source RAG engine with deep document understanding
+- **[ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** ![GitHub stars](https://img.shields.io/github/stars/ScrapeGraphAI/Scrapegraph-ai?style=social) - LLM-powered web scraping
+- **[Firecrawl](https://github.com/mendableai/firecrawl)** ![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social) - Turn websites into LLM-ready markdown
 
 ### Other Tools
 
 - **[DSPy](https://dspy-docs.vercel.app/)** - Framework for optimizing prompts and LM pipelines
-- **[Fabric](https://github.com/danielmiessler/fabric)** ![GitHub stars](https://img.shields.io/github/stars/danielmiessler/fabric?style=flat-square) - Framework for augmenting humans using AI
+- **[Fabric](https://github.com/danielmiessler/fabric)** ![GitHub stars](https://img.shields.io/github/stars/danielmiessler/fabric?style=social) - Framework for augmenting humans using AI
 - **[Tavily](https://tavily.com/)** - Search engine tailored for AI agents
 - **[Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/)** - AWS managed agent service
-- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square) - Microsoft's SDK for integrating LLMs into apps
+- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social) - Microsoft's SDK for integrating LLMs into apps
 
 ---
 
@@ -338,13 +338,13 @@ Tools and libraries for building AI agents.
 
 Links to deeper dives and implementations.
 
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ![GitHub stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square) - Most starred agent repository
-- [BabyAGI](https://github.com/yoheinakajima/babyagi) ![GitHub stars](https://img.shields.io/github/stars/yoheinakajima/babyagi?style=flat-square) - Minimalist task-driven autonomous agent
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ![GitHub stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social) - Most starred agent repository
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) ![GitHub stars](https://img.shields.io/github/stars/yoheinakajima/babyagi?style=social) - Minimalist task-driven autonomous agent
 - [CodeAct (Apple)](https://machinelearning.apple.com/research/codeact) - Uses executable Python code to consolidate LLM agents' actions
-- [OpenAgents](https://github.com/xlang-ai/OpenAgents) ![GitHub stars](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=flat-square) - Open platform for language agents in the wild
-- [UI-TARS](https://github.com/bytedance/UI-TARS) ![GitHub stars](https://img.shields.io/github/stars/bytedance/UI-TARS?style=flat-square) - ByteDance's GUI interaction agent
-- [cognee](https://github.com/topoteretes/cognee) ![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square) - Reliable LLM memory for AI applications
-- [AI Enablement Stack](https://github.com/daytonaio/ai-enablement-stack) ![GitHub stars](https://img.shields.io/github/stars/daytonaio/ai-enablement-stack?style=flat-square) - Community-driven mapping of AI development tools
+- [OpenAgents](https://github.com/xlang-ai/OpenAgents) ![GitHub stars](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=social) - Open platform for language agents in the wild
+- [UI-TARS](https://github.com/bytedance/UI-TARS) ![GitHub stars](https://img.shields.io/github/stars/bytedance/UI-TARS?style=social) - ByteDance's GUI interaction agent
+- [cognee](https://github.com/topoteretes/cognee) ![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=social) - Reliable LLM memory for AI applications
+- [AI Enablement Stack](https://github.com/daytonaio/ai-enablement-stack) ![GitHub stars](https://img.shields.io/github/stars/daytonaio/ai-enablement-stack?style=social) - Community-driven mapping of AI development tools
 
 ---
 
