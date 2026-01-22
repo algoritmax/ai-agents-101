@@ -1,3 +1,6 @@
+![License](https://img.shields.io/github/license/algoritmax/ai-agents-101)
+![Stars](https://img.shields.io/github/stars/algoritmax/ai-agents-101)
+
 # AI Agents 101
 
 A collection of fundamental concepts, resources, and references for understanding AI agents.
